@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Concurrency Comparator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Database Concurrency Comparator</h1>
+        <div class="query-section">
+            <label for="query1">Query 1:</label><br>
+            <textarea id="query1" name="query1" placeholder="Enter SQL query 1"></textarea>
+        </div>
+        <div class="query-section">
+            <label for="query2">Query 2:</label><br>
+            <textarea id="query2" name="query2" placeholder="Enter SQL query 2"></textarea>
+        </div>
+        <button id="compareBtn">Compare Queries</button>
+        <div id="results">
+            <!-- Results will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
